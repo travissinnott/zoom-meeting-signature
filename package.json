@@ -1,0 +1,33 @@
+{
+  "name": "zoom-meeting-signature",
+  "version": "0.1.0",
+  "description": "Generate a meeting signature for use with the Zoom Javascript API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha lib/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/travissinnott/zoom-meeting-signature.git"
+  },
+  "keywords": [
+    "zoom",
+    "meeting",
+    "signature",
+    "api",
+    "sdk"
+  ],
+  "author": "Travis Sinnott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travissinnott/zoom-meeting-signature/issues"
+  },
+  "homepage": "https://github.com/travissinnott/zoom-meeting-signature#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "4.0.1"
+  }
+}
